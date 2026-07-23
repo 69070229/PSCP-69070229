@@ -15,25 +15,25 @@ If AI was used for this learning-log-required problem, also complete `ai_reflect
 OJ problem number/title:
 
 ```text
-
+3036/ปราสาท
 ```
 
 OJ submission ID, if submitted:
 
 ```text
-
+558545
 ```
 
 OJ status:
 
 ```text
-Pass / Not Pass / Not Submit
+Pass
 ```
 
 Independent time spent on this problem:
 
 ```text
-
+1-3 hours
 ```
 
 Choose one:
@@ -73,7 +73,7 @@ Also explain the input, output, and important constraints.
 If you do not fully understand the problem yet, write what you currently understand. Your understanding may be incomplete or incorrect, but you must make a genuine attempt.
 
 ```text
-
+From my understanding, first you received the number, and you need to calculate how many times you need to break the wall to get to room number 1 as wall break as low as possible. If the input is 1, you get 0 because you don't need to break the wall
 ```
 
 ---
@@ -93,9 +93,7 @@ This can be rough. It may be incomplete or different from your final solution.
 You may write pseudocode, a flowchart idea, or step-by-step thinking.
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+My first plan is to calculate the floor that we are at by using the pattern that we are given every last number of each floor is an exponent of 2 so we calculate the floor by using while loop to get the floor number if number is > the last floor number, we add the floor number. After we get the floor number, next we calculate the position of the number we are given by using the number that we are given minus the last number of the 1 lower floor that we are in and then we calculate how many time we need to break the wall by using the position and floor that we are in at the moment if the position is mod with 2 and return 0 we add the wall break by 1 minus row by 1 and the position by 1 if the position mod with 2 did not return 0 we add the wall break by 2 minus row  by 1 and the position that we are at right now minus by two but if the position minus by two and we get negative number the position is 1 and if the row is 0 then we print out the number of wall break
 ```
 
 ---
@@ -115,7 +113,7 @@ Do not copy AI's explanation.
 Do not copy another person's explanation.
 
 ```text
-
+First, I received a number input as an integer, and we assign floor as 0, we calculate the floor by using while loop if number > (i+1)**2, we add 1 to i next we calculate the position by using number - i**2 that gonna give us the current position of the floor we are at. Then, we assign cost as 0 that gonna count how many time we need to break the wall to get to the room number 1 and we assign row = i and now we calculate the wall break using while loop if row > 0 we continue to next if p%2 == 0 we add the cost by 1 minus row by 1 and minus p by 1 if p%2 did not return 0 we add the cost by 2 minus row by 1 and assign p to max(p-2, 1) that help to check if p is negative or not after row hit 0 we print(cost)
 ```
 
 ---
@@ -135,31 +133,31 @@ If the input or output has many lines, write them inside the text blocks.
 Why I chose this case:
 
 ```text
-
+I use this test case to check whether the math in this code works as intended or not
 ```
 
 Input:
 
 ```text
-
+100
 ```
 
 Expected output:
 
 ```text
-
+18
 ```
 
 Actual output:
 
 ```text
-
+18
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 2
@@ -167,31 +165,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+I use this test case to check whether the math in this code works as intended or not
 ```
 
 Input:
 
 ```text
-
+1
 ```
 
 Expected output:
 
 ```text
-
+0
 ```
 
 Actual output:
 
 ```text
-
+0
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ### Test Case 3
@@ -199,31 +197,31 @@ Pass / Not Pass
 Why I chose this case:
 
 ```text
-
+I use this test case to check whether the math in this code works as intended or not
 ```
 
 Input:
 
 ```text
-
+67
 ```
 
 Expected output:
 
 ```text
-
+16
 ```
 
 Actual output:
 
 ```text
-
+16
 ```
 
 Result:
 
 ```text
-Pass / Not Pass
+Pass
 ```
 
 ---
@@ -233,7 +231,7 @@ Pass / Not Pass
 Did you use AI for this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, also complete:
@@ -251,7 +249,7 @@ If you only asked a friend, TA, or instructor and did not use AI, you do not nee
 Did you ask a friend, TA, instructor, or another person for help on this problem?
 
 ```text
-Yes / No
+No
 ```
 
 If yes, briefly explain what kind of help you received.
@@ -305,10 +303,10 @@ Write `Yes` for each statement.
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. | Yes |
+| I understand my final code. | Yes |
+| I recorded the real OJ status. | Yes |
+| I did not copy AI-generated text directly into this file. | Yes |
+| I did not copy code from another person. | Yes |
+| If I received human help, I disclosed it in this file. | Yes |
+| I submitted the final code to the OJ by myself. | Yes |
