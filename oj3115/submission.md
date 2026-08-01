@@ -168,7 +168,7 @@ Pass
 Why I chose this case:
 
 ```text
-I use this test case to check whether my code work as intended or not
+I use this test case to check whether my code works as intended or not
 ```
 
 Input:
@@ -185,13 +185,13 @@ Input:
 Expected output:
 
 ```text
-3 1 2 2 0
+2 1 2 2 0
 ```
 
 Actual output:
 
 ```text
-3 1 2 2 0
+2 1 2 2 0
 ```
 
 Result:
