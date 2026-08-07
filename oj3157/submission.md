@@ -21,7 +21,7 @@ OJ problem number/title:
 OJ submission ID, if submitted:
 
 ```text
-	590478
+590478
 ```
 
 OJ status:
